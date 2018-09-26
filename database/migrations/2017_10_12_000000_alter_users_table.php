@@ -19,6 +19,10 @@ class AlterUsersTable extends Migration {
 			$table->timestamp('last_login')->nullable();
 			$table->timestamp('active')->nullable();
 			$table->string('activation_key',255)->nullable();
+
+			//https://github.com/Propaganistas/Laravel-Phone/issues/69
+			$table->string('phone', 36)->nullable();
+			$table->string('phone_country_code', 2)->nullable();
 		});
 	}
 

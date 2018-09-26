@@ -3,6 +3,8 @@
         <h2>SETTINGS PAGE</h2>
         <p>I am located at <b>resources/assets/js/admin/settings/Settings.vue</b></p>
         <p>single page routes for admin can be found at <b>resources/js/admin/router.js</b></p>
+
+        <h2>Added by XP!! </h2>
     </div>
 </template>
 
